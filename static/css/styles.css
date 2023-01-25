@@ -7795,6 +7795,11 @@ textarea.form-control-lg {
 }
 
 .text-center {
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  text-align: center !important;
+}
+
+.text-center2 {
   text-align: center !important;
 }
 
