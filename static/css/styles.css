@@ -152,11 +152,34 @@
 {
     text-transform: uppercase;
     background-image: linear-gradient(
-      -225deg,
-      #A230ED 0%,
-      #190087 29%
-      #D391FA 67%,
-      #6B00D7 100%,
+        -225deg,
+        #aa5fff 0%,
+        #6700dc 29%,
+        #c793ff 67%,
+        #ac4be0 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    font-family: monospace;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+        font-size: 80px;
+}
+
+.animate-charctertwo
+{
+    text-transform: uppercase;
+    background-image: linear-gradient(
+        -225deg,
+        #ECC440 0%,
+        #FFFA8A 29%,
+        #DDAC17 67%,
+        #FFFF95 100%
     );
     background-size: auto auto;
     background-clip: border-box;
@@ -5832,11 +5855,34 @@ textarea.form-control-lg {
   {
       text-transform: uppercase;
       background-image: linear-gradient(
-        -225deg,
-        #A230ED 0%,
-        #190087 29%
-        #D391FA 67%,
-        #6B00D7 100%,
+          -225deg,
+          #aa5fff 0%,
+          #6700dc 29%,
+          #c793ff 67%,
+          #ac4be0 100%
+      );
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      color: #fff;
+      font-family: monospace;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      animation: textclip 2s linear infinite;
+      display: inline-block;
+      font-size: 40px;
+  }
+
+  .animate-charctertwo
+  {
+      text-transform: uppercase;
+      background-image: linear-gradient(
+          -225deg,
+          #ECC440 0%,
+          #FFFA8A 29%,
+          #DDAC17 67%,
+          #FFFF95 100%
       );
       background-size: auto auto;
       background-clip: border-box;
@@ -11799,6 +11845,12 @@ header.masthead .masthead-heading {
   border-right-width: 14px;
   border-left-width: 0;
 }
+
+
+.continue {
+  background-color: #ffc800!important;
+}
+
 .timeline > li .timeline-image {
   position: absolute;
   z-index: 100;
@@ -11810,8 +11862,10 @@ header.masthead .masthead-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #ffc800;
+  background-color: #fff;
 }
+
+
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
   font-size: 10px;
   line-height: 14px;
